@@ -1,0 +1,29 @@
+{
+    "name": "romary22/php_readexcel",
+    "type": "library",
+    "description": "",
+    "keywords": ["excel", "spreadsheet", "document", "xls", "reader"],
+    "homepage": "https://github.com/romary22/php_readexcel",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/romary22/php_readexcel.git"
+        }
+    ],
+    "license": "LGPL v2.1",
+    "authors": [
+        {
+            "name": "Romary Oswalt",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.3.0"
+    },
+    "autoload": {
+        "psr-0": { },
+        "files": [
+            "src/reader.php"
+        ]
+    }
+}
